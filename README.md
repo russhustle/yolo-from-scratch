@@ -1,32 +1,9 @@
-# Repository Template
+# YOLOv8n Implementation from Scratch
 
-- Pre-requisites: uv, python3.11
+A complete implementation of YOLOv8 nano (YOLOv8n) object detection model built from scratch for educational purposes.
 
-## Setup
+![architecture](src/classes_Yolov8n.png)
 
-```bash
-# Install dependencies
-uv sync --extra dev
+## Overview
 
-# Install pre-commit hooks
-uv run pre-commit install
-
-# Run pre-commit on all files
-uv run pre-commit run --all-files
-```
-
-## Development
-
-```bash
-# Run linting and formatting
-uv run ruff check --fix .
-
-# Run formatting only
-uv run ruff format .
-
-# Run linting only (without fixes)
-uv run ruff check .
-
-# Run docstring coverage check
-uv run interrogate .
-```
+This project implements the YOLOv8n (You Only Look Once version 8 nano) object detection algorithm from the ground up. YOLOv8n is the smallest and fastest variant of the YOLOv8 family, designed for real-time object detection with minimal computational requirements.
